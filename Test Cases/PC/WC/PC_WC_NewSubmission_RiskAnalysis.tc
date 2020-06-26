@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PC_WC_NewSubmission_pg_RiskAnalysis</name>
+   <name>PC_WC_NewSubmission_RiskAnalysis</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2934d4b6-c35c-4394-b18c-42233e5d20d9</testCaseGuid>

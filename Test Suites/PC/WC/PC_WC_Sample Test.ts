@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>New Test Suite</name>
+   <name>PC_WC_Sample Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,5 +9,5 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>0b6d6bf1-311a-4d0e-9ec0-33aefe7926b0</testSuiteGuid>
+   <testSuiteGuid>00106b86-0f14-4fc0-9235-119557d5bf56</testSuiteGuid>
 </TestSuiteEntity>
