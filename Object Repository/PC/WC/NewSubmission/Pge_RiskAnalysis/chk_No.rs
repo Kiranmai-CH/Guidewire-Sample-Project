@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Rdo_btn_No</name>
+   <name>chk_No</name>
    <tag></tag>
    <elementGuidId>bd886509-f22f-4936-a54e-34963f0a3189</elementGuidId>
    <selectorCollection>
