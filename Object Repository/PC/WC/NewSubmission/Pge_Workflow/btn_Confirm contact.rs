@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Confirm contact</name>
+   <name>btn_Confirm contact</name>
    <tag></tag>
    <elementGuidId>6f6cf5c2-1cee-48e4-9d93-85eef7ba439e</elementGuidId>
    <selectorCollection>
