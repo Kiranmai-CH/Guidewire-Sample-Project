@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Chkbox_Rolesselect</name>
+   <tag></tag>
+   <elementGuidId>80cbf195-1a69-45a6-8e81-e571c559aec3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;NewAccountContactPopup-ContactDetailScreen-AccountContactCV-ContactRolesDV-ContactRolesLV-0-_Checkbox&quot;]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
