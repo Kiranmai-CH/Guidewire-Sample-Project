@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>slct_state</name>
+   <name>drp_selectgroup</name>
    <tag></tag>
-   <elementGuidId>52933477-e417-45e9-8c5c-4a6f94547d2b</elementGuidId>
+   <elementGuidId>a71a768a-f9ee-45bb-a13b-36d4f110ee11</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;NewAccount-NewAccountScreen-NewAccountSearchDV-AddressOwnerAddressInputSet-globalAddressContainer-GlobalAddressInputSet-State&quot;]/div/div/select</value>
+         <value>//*[@id=&quot;CreateAccount-CreateAccountScreen-CreateAccountDV-ProducerSelectionInputSet-group-GroupPickerMenuIcon&quot;]/div/div[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

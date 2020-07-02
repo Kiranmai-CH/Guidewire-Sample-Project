@@ -38,22 +38,55 @@ WebUI.click(findTestObject('PC/WC/End to End/pge_accountinformation/btn_search')
 WebUI.setText(findTestObject('PC/WC/End to End/pge_accountinformation/txt_companyname'), findTestData('PC/WC/End to End/Account creation').getValue(
         1, 1))
 
-WebUI.setText(findTestObject('PC/WC/End to End/pge_accountinformation/txt_frstname'), findTestData('PC/WC/End to End/Account creation').getValue(
+WebUI.setText(findTestObject('PC/WC/End to End/pge_accountinformation/txt_city'), findTestData('PC/WC/End to End/Account creation').getValue(
         2, 1))
 
-WebUI.setText(findTestObject('PC/WC/End to End/pge_accountinformation/txt_lastname'), findTestData('PC/WC/End to End/Account creation').getValue(
+WebUI.setText(findTestObject('PC/WC/End to End/pge_accountinformation/txt_county'), findTestData('PC/WC/End to End/Account creation').getValue(
         3, 1))
 
-WebUI.setText(findTestObject('PC/WC/End to End/pge_accountinformation/txt_city'), findTestData('PC/WC/End to End/Account creation').getValue(
-        4, 1))
-
-WebUI.selectOptionByLabel(findTestObject('PC/WC/End to End/pge_accountinformation/slct_state'), findTestData('PC/WC/End to End/Account creation').getValue(
-        5, 1), false)
+WebUI.selectOptionByLabel(findTestObject('PC/WC/End to End/pge_accountinformation/drp_slct_state'), findTestData('PC/WC/End to End/Account creation').getValue(
+        4, 1), false)
 
 WebUI.setText(findTestObject('PC/WC/End to End/pge_accountinformation/txt_zipcode'), findTestData('PC/WC/End to End/Account creation').getValue(
-        6, 1))
+        5, 1))
 
 WebUI.click(findTestObject('PC/WC/End to End/pge_accountinformation/btn_createnewaccount'))
 
 WebUI.click(findTestObject('PC/WC/End to End/pge_accountinformation/drp_newaccount_company'))
+
+WebUI.setText(findTestObject('PC/WC/End to End/pge_createaccount/txt_address1'), findTestData('PC/WC/End to End/Account creation').getValue(
+        6, 1))
+
+WebUI.setText(findTestObject('PC/WC/End to End/pge_createaccount/txt_zipcode'), findTestData('PC/WC/End to End/Account creation').getValue(
+        5, 1))
+
+WebUI.selectOptionByLabel(findTestObject('PC/WC/End to End/pge_createaccount/drp_slct_addresstype'), findTestData('PC/WC/End to End/Account creation').getValue(
+        7, 1), false)
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_createaccount/drp_selectproducergroup'))
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_createaccount/drp_selectgroup'))
+
+WebUI.setText(findTestObject('PC/WC/End to End/pge_searchgroup/txt_groupname'), 'g')
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_searchgroup/btn_search'))
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_searchgroup/btn_searchresults_select'))
+
+WebUI.selectOptionByLabel(findTestObject('PC/WC/End to End/pge_searchgroup/drp_slct_producercode'), findTestData('PC/WC/End to End/Account creation').getValue(
+        8, 1), false)
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_createaccount/btn_update'))
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_createaccount/pge_businessstandardname/clk_select'))
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_createaccount/pge_businessstandardname/clk_returntocreateaccount'))
+
+WebUI.check(findTestObject('PC/WC/End to End/pge_createaccount/chk_useasentered'))
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_createaccount/btn_update'))
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_AccountSummary/btn_Actions'))
+
+WebUI.click(findTestObject('PC/WC/End to End/pge_AccountSummary/clk_NewSubmission'))
 
